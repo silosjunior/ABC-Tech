@@ -39,16 +39,15 @@
         </section>
         <aside id="aba-lateral-carrinho">
             <h2>Carrinho de Compras</h2>
-            <ul id="itens-carrinho">
-                <p>Total:
-                    <span id="valor-total">
-                        <strong><data value="0.00">R$ 0,00</data></strong>
-                    </span>
-                    <form id="final-compra" action="valor-total.php">
-                        <button type="submit">Finalizar compra</button>
-                    </form>
-                </p>
-            </ul>
+            <ul id="itens-carrinho"></ul>
+            <p>Total:
+                <span>
+                    <strong><data id="valor-total" value="0.00">R$ 0,00</data></strong>
+                </span>
+            </p>
+            <form id="final-compra">
+                <button type="submit">Finalizar compra</button>
+            </form>
         </aside>
     </main>
 </body>
